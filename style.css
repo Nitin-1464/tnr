@@ -1,14 +1,20 @@
-input {
+#pointe {
             border-radius: 10px;
+        }
+        .main{
+            border-radius: 5px 5%;
         }
 
         body {
             color: rgb(0, 223, 174);
         }
 
-        form {
-            background-color: rgb(141, 116, 16);
+        table{
+            background-color: rgb(141, 16, 16);
             width: 28%;
             height: 150%;
-
+            border-radius: 10px 15%;
+        }
+        button{
+            border-radius: 10px;
         }
