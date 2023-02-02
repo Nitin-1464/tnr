@@ -1,0 +1,21 @@
+mark{
+    color:red;
+}
+p{
+    background-color: green;
+}
+#pain{
+    background-color: brown;
+}
+.type{
+    background-color: rgb(110, 228, 110);
+}
+#url{
+    background-color: chocolate;
+}
+table{
+    border-radius: 10px 16%;
+}
+body{
+    background-color: darkorange;
+}
