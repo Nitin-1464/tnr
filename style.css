@@ -1,0 +1,14 @@
+input {
+            border-radius: 10px;
+        }
+
+        body {
+            color: rgb(0, 223, 174);
+        }
+
+        form {
+            background-color: rgb(141, 116, 16);
+            width: 28%;
+            height: 150%;
+
+        }
