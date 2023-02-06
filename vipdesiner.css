@@ -1,17 +1,34 @@
 input{
-    border-radius: 10px;
+    width:;
+    height: 30px;
     background-color: rgb(65, 11, 51);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+input:hover{
+    width: 30px;
 }
 table{
     border-radius: 10px;
     border: 10pc;
-    background-color: rgb(107, 165, 41);
-    text-align: center;
+    background-color: greenyellow;
+    background-image: conic-gradient(greenyellow,rgb(102, 125, 206),yellow);
+   
     
 }
 textarea{
     background-color: rgba(67, 109, 117, 0.748);
 }
-form{
-    align-self: center;
+h3::after{
+    content: "("attr(href)")";
+}
+body{
+    border-radius: 20%;
+  /*  background-color: aqua;*/
+    height: 5%;
+    background-repeat:  no-repeat;
+    background-image: repeating-conic-gradient(aqua 1%,green 3%,white 5%,black 6%);
+}
+button{
+    width: ;
+    height: 30px;
 }
