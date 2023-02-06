@@ -1,28 +1,30 @@
 h1{
     text-align: center;
 }
-input[type=Area]{
-    width: 30px;
 
-}
 h3{
     text-align:;
 }
-input[type=number]{
-    
-}
+
 input{
-    border-radius: 10px 10%;
-}
-#posi{
-    width: 700px;
-    height: 600px;
-    background-image: url("./what_is_image_Processing.jpg");
-    position: 15px;
-    background-repeat:no-repeat;
-    background-size: 1100px;
-    border: solid;
-}
-button{
     border-radius: 10px;
 }
+#posi{
+    width: 599px;
+    height: 499px;
+    background-image: url("./image.jpg");
+    position: 15px;
+    background-repeat:no-repeat;
+    background-size: 1000px;
+    border: solid;
+}
+/*button{
+    border-radius: 10px;
+}*/
+textarea{
+    border-radius: 10px;
+
+}
+#main{
+    border-left: 10ch;
+} 

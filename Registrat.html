@@ -4,15 +4,13 @@
 
 <body>
     <form id="posi">
-        <h1>Registrat</h1>
-        <input type="Fisrtname" name="name" placeholder="Fisrtname">
-        <input type="Fisrtname" name="name" placeholder="Lastname">
-        <input type="Fisrtname" name="name" placeholder="surname"><br><br>
-        <h3>Phone Number</h3> <input type="Area" name="number" placeholder="area code">-<input type="number"
-            name="number" placeholder="Number"><br><br>
-        <input type="Fisrtname" name="name" placeholder="Email"><br><br> Sex<br> Male<input type="radio" name="sex"
-            placeholder="male">Female <input type="radio" name="sex"
-            placeholder="female"><br><br><textarea>10th details</textarea><textarea>12th details</textarea><textarea>Current details</textarea><br><br>
+        <h1>Registrat</h1> Name <input type="Fisrtname" name="name" placeholder="Fisrtname">
+        <input type="Lastname" name="name" placeholder="Lastname">
+        <input type="surname" name="name" placeholder="surname"><br><br> Phone Number <input maxlength="3" name="number"
+            placeholder="area code" size="3">-<input maxlength="10" name="phone" placeholder="Number" required><br><br>
+        Email<input type="email" name="name" id="email" placeholder="Email" multiple><br><br> Gender<input type="radio"
+            name="sex" placeholder="male">Male <input type="radio" name="sex"
+            placeholder="female">Female<br><br><textarea>10th details</textarea><textarea>12th details</textarea><textarea>Current details</textarea><br><br>
         <label for="pravel">Pravel Method:</label>
         <select name="pravel" id="pravel">
             <option value="Select">Select</option>
@@ -24,10 +22,9 @@
         </select><br><br>
         <textarea rows="4" cols="50" name="address" form="usr">
             Address Current 
-        </textarea><br><br> Postal<input type="postal" name="postal" placeholder="Postal"><br><br> Pincode<input
-            type="number" name="number" placeholder="Pincode"><br><br>
-        <button type="submit">Submit</button>
-        <button type="redistrat">Registrat</button>
+        </textarea><br><br>Pincode<input type="number" name="number" placeholder="Pincode"><br><br>
+        <button type="submit" onclick="alert('Done')">Submit</button>
+        <button type="redistrat" onclick="alert('Not Registrat')" class="main">Registrat</button>
     </form>
 </body>
 
